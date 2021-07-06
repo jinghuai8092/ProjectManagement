@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/base.css">
+    <link type="text/css" rel="stylesheet" href="../css/addProduct.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="menu">
+        <div class="logo">Logo</div>
+        <div class="menuList">
+            <a class="menuA" id="productM"><span class="iconfont">&#xe6d8;</span>
+                Product Management<span class="iconfont icleft" id="productIcleft">&#xe601;</span></a>
+            <ul id="productMul">
+                <a href="../html/index.html">
+                    <li>Product List</li>
+                </a>
+                <a href="../html/addProduct.html">
+                    <li>Add Product</li>
+                </a>
+            </ul>
+            <a class="menuA"><span class="iconfont">&#xe604;</span>
+                Financial Management <span class="iconfont icleft">&#xe601;</span></a>
+            <a class="menuA"><span class="iconfont">&#xe66c;</span>
+                Personnel Management <span class="iconfont icleft">&#xe601;</span></a>
+
+        </div>
+
+    </section>
+    <section class="main" id="main">
+        <div class="header">
+            <div class="topMenu">
+                <ul>
+                    <li><a>Change Password</a></li>
+                    <li><a>Log out</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainTitle">
+            <span class="title">Edit Product</span>
+        </div>
+        <div class="productInfo">
+            <form class="add-form">
+                <div class="form-item">
+                    <label class="form-label">Product Name</label>
+                    <div class="form-input">
+                        <input id="productName" type="text" name="productName" required autocomplete="off" class="inputF">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="form-label">Product Model</label>
+                    <div class="form-input">
+                        <input id="productModel" type="text" name="productModel" required autocomplete="off" class="inputF">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="form-label">Measure Unit</label>
+                    <div class="form-input">
+                        <input id="measureUnit" type="text" name="measureUnit" required autocomplete="off" class="inputF">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="form-label">Price</label>
+                    <div class="form-input">
+                        <input id="price" type="text" name="price" required autocomplete="off" class="inputF">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="form-label">Inventory</label>
+                    <div class="form-input">
+                        <input id="inventory" type="text" name="inventory" required autocomplete="off" class="inputF">
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <div class="input-block">
+                        <button class="subBtn">Edit</button>
+                        <button type="reset" class="resetBtn">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+</body>
+<script type="module" src="../js/getEditProduct.js"></script>
+
+<script src="../js/index.js"></script>
+</html>

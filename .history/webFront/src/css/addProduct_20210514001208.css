@@ -1,0 +1,16 @@
+.form-item{
+    margin-bottom: 15px;
+    clear: both;
+    display: block;
+}
+
+.form-item .form-label{
+    width: 100px;
+    float: left;
+    display: block;
+    padding: 9px 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    
+}

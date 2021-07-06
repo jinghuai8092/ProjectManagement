@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link type="text/css" rel="stylesheet" href="../css/register.css">
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/base.css">
+    <title>Register</title>
+</head>
+<body>
+    <section class="background">
+        <div class="loginBox">
+            <div class="title">
+                <h2>Create an account</h2>
+            </div>
+            <div class="loginInfo">
+                <div class="itemBox">
+                    <span class="iconfont">&#xe73f;</span>
+                    <input id="username" name="username" type="text" placeholder="Username" required autocomplete="off" >
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe73f;</span>
+                    <input id="fullname" name="fullName" type="text" placeholder="Full Name" required autocomplete="off">
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe6ad;</span>
+                    <!-- <input id="gender" name="gender" type="text" placeholder="Gender" required autocomplete="off"> -->
+                    <select id="gender" name="gender"  placeholder="Please Select" style="color: black;">
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+                    </select>
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe62c;</span>
+                    <input id="phone" name="phone" type="text" placeholder="Telephone" required autocomplete="off">
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe647;</span>
+                    <input id="email" name="email" type="email" placeholder="Email" required autocomplete="off">
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe734;</span>
+                    <input id="password1" name="password" type="password" placeholder="Password" required autocomplete="off">
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe734;</span>
+                    <input id="password2" name="re_password" type="password" placeholder="Rewrite Password" required autocomplete="off">
+                </div>
+            </div>
+            <div class="loginBtn">
+                <input id="btn" class="btn" name="btn" type="button" value="REGISTER">
+            </div>
+
+        </div>
+
+    </section>
+    <script type="module" src="../js/postResgister.js"></script>
+
+</body>
+</html>

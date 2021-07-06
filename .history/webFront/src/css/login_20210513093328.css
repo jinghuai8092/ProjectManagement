@@ -1,0 +1,8 @@
+body{
+    background-size: contain;
+}
+
+.background{
+    background-image: url(../images/prism.png);
+    background-size: 100% 100%;
+}

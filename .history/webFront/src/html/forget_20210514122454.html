@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link type="text/css" rel="stylesheet" href="../css/forget.css">
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/base.css">
+    <title>Reset Password</title>
+</head>
+<body>
+    <section class="background">
+        <div class="loginBox">
+            <div class="title">
+                <h2>Reset Password</h2>
+            </div>
+            <div id="textBox1"  class="loginInfo">
+                <div class="itemBox">
+                    <span class="iconfont">&#xe73f;</span>
+                    <input id="username" name="username" type="text" placeholder="Username" autocomplete="off"> 
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe734;</span>
+                    <input id="email" name="email" type="email" placeholder="Email" autocomplete="off">
+                </div>
+            </div>
+            <div id="textBox2"  class="loginInfo displayNone">
+                <div class="itemBox">
+                    <span class="iconfont">&#xe73f;</span>
+                    <input id="securityCode" name="securityCode" type="text" placeholder="Security Code" autocomplete="off"> 
+                </div>
+                <div class="itemBox">
+                    <span class="iconfont">&#xe734;</span>
+                    <input id="newPassword" name="newPassword" type="newPassword" placeholder="New Password" autocomplete="off">
+                </div>
+            </div>
+            <div id="btn1" class="loginBtn">
+                <input id="SendBtn" class="btn" name="btn" type="button" value="Send Email">
+            </div>
+            <div id="btn2" class="loginBtn displayNone">
+                <input id="ChangeBtn" class="btn" name="btn" type="button" value="Submit">
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../js/forget.js"></script>
+</body>
+</html>

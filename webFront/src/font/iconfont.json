@@ -1,0 +1,72 @@
+{
+  "id": "2544881",
+  "name": "AI ",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4734120",
+      "name": "右箭头",
+      "font_class": "ic_arrow_r",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8629256",
+      "name": "人员",
+      "font_class": "renyuan",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "8821733",
+      "name": "随身财物",
+      "font_class": "suishencaiwu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "15513193",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "7275151",
+      "name": "email (Filled)",
+      "font_class": "emailFilled",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "7712708",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "7712744",
+      "name": "username",
+      "font_class": "username",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "19457211",
+      "name": "gender",
+      "font_class": "xingbie",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "19805007",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    }
+  ]
+}

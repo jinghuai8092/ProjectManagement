@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/base.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="menu">
+        <div class="logo">Logo</div>
+        <div class="menuList">
+            <a class="menuA" id="productM"><span class="iconfont">&#xe6d8;</span>
+                Product Management<span class="iconfont icleft" id="productIcleft">&#xe601;</span></a>
+            <ul id="productMul">
+                <a href="../html/index.html">
+                    <li>Product List</li>
+                </a>
+                <a href="../html/addProduct.html">
+                    <li>Add Product</li>
+                </a>
+            </ul>
+            <a class="menuA"><span class="iconfont">&#xe604;</span>
+                Financial Management <span class="iconfont icleft">&#xe601;</span></a>
+            <a class="menuA"><span class="iconfont">&#xe66c;</span>
+                Personnel Management <span class="iconfont icleft">&#xe601;</span></a>
+
+        </div>
+
+    </section>
+    <section class="main" id="main">
+        <div class="header">
+            <div class="topMenu">
+                <ul>
+                    <li><a>Change Password</a></li>
+                    <li><a>Log out</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainTitle">
+            <span class="title">Product List</span>
+        </div>
+
+        <div class="list">
+            <form action>
+            <div class="search">
+                <input id="searchText" type="text" class="textS" name="search" required placeholder="Search product by Name" autocomplete="off">
+                <input id="searchBtn" type="button" class="btnS" name="searchBtn" value="Search">
+                <input type="button" class="btnS" name="resetBtn" value="Reset" id="resetBtn">
+            </div>
+
+            </form>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <!-- <th>Product Number</th> -->
+                    <th>Product Name</th>
+                    <th>Product Model</th>
+                    <th>Price</th>
+                    <th>Measure Unit</th>
+                    <th>Inventory</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbodyList">
+                <!-- <tr> -->
+                    <!-- <td>PN0001</td> -->
+                    <!-- <td>Mask</td>
+                    <td>M0101</td>
+                    <td>C$25.95</td>
+                    <td>One Box(30pcs)</td>
+                    <td>253</td>
+                    <td>
+                        <button class="check" >Details</button>
+                        <button class="editBtn">Edit</button>
+                        <button class="deleteBtn">Delete</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+</body>
+<script type="module" src="../js/getListData.js"></script>
+<script src="../js/index.js"></script>
+</html>

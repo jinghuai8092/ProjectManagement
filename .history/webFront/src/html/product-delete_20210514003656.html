@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+
+</head>
+
+<body>
+    <div class="layui-fluid">
+        <div class="layui-row">
+            <form class="layui-form">
+                <div class="layui-form-item">
+                    <p style="font-size:16px;font-family: 'Courier New', Courier, monospace;">Are you sure to delete this product?</p>
+<br>
+                    <button id="delete" class="layui-btn" lay-filter="delete" lay-submit="">
+                        Delete
+                    </button>
+                    <button id="cancel" class="layui-btn" lay-filter="cancel" lay-submit="">
+                        Cancel
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script type="module">
+    
+import { getData } from '../api/getData.js';
+
+const del =document.getElementById('delete');
+const cancel=document.getElementById('cancel');
+
+var getFromBefore = window.location.href.split("?")[1];
+console.log(getFromBefore)
+
+
+del.onclick=()=>{
+    getData(
+        `http://localhost:3000/api/product/delete/${getFromBefore}`,
+        { withCredentials: true }
+    )
+xadmin.close();
+}
+
+cancel.onclick=()=>{
+    xadmin.close();
+}
+
+</script>
+
+</body>
+
+</html>

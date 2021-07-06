@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    background-size: contain;
+}
+
+.background{
+    background-image: url(../images/prism.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.loginBox{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+}

@@ -1,0 +1,71 @@
+.form-item{
+    margin-bottom: 15px;
+    margin-left: 40px;
+    padding: 5px 0px 5px 0;
+    display: block;
+}
+.form-item:first-child{
+    padding-top: 20px;
+}
+.form-item .form-label{
+    width: 100px;
+    float: left;
+    display: block;
+    padding: 9px 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    position: relative;
+}
+.form-item .form-input{
+    margin-left: 130px;
+    min-height: 36px;
+    position: relative;
+}
+.form-item .form-input .inputF{
+    height:38px;
+    line-height: 38px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    padding-left: 10px;
+    background-color: #fff;
+}
+
+.form-item .input-block{
+    margin-left: 130px;
+    min-height: 36px;
+    position: relative;
+}
+.form-item .input-block .subBtn{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding:0 18px;
+    background-color: #009688;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+.form-item .input-block .resetBtn{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding:0 18px;
+    background-color: #fff;
+    border: 1px solid grey;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+}
